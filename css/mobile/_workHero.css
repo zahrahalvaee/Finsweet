@@ -1,0 +1,47 @@
+.workHero {
+  width: 100%;
+  padding:20px 10px;
+  background: var(--Grey);
+}
+.workHero .headerCenter {
+  width: 100%;
+  text-align: center;
+}
+.workHero .headerCenter span {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 4px;
+}
+.workHero .headerCenter h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+.workHero .headerCenter p {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  text-align: justify;
+  margin-bottom: 32px;
+}
+.workHero .headerCenter svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 27.84px;
+}

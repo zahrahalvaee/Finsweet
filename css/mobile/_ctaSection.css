@@ -1,0 +1,47 @@
+.CTA_Section {
+  width: 100%;
+  padding: 20px 10px;
+}
+.CTA_Section .headlineBody {
+  width: 100%;
+  text-align: center;
+}
+.CTA_Section .headlineBody h2 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 20px;
+}
+.CTA_Section .headlineBody p {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  text-align: justify;
+}
+.CTA_Section .btnWork {
+  width: 31.5%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.CTA_Section .btnWork button {
+  display: flex;
+  width: 230px;
+  height: 64px;
+  padding: 16px 67px 16px 66px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 41px;
+  background: #fcd980;
+}

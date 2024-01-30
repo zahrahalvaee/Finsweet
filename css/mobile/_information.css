@@ -1,0 +1,35 @@
+.information {
+  width: 100%;
+  padding: 20px 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content:center;
+  align-items: center;
+}
+.information div {
+text-align: center;
+}
+.information div span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+.information div h6 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+.information div:nth-of-type(4){
+    width: 100%;
+    border-bottom: 1px solid #282938;
+    margin-bottom: 32px;
+}

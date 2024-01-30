@@ -1,0 +1,59 @@
+.process {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.process h2 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 60.37px;
+}
+.process .processCards {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 20px;
+text-align: center;
+}
+.process .processCards .processcard {
+  width: 100%;
+}
+.process .processCards .processcard svg {
+  width: 24px;
+  height: 24px;
+  vertical-align:middle;
+}
+.process .processCards .processcard span {
+  display: inline-block;
+  width: 224px;
+  height: 2px;
+  opacity: 0.4;
+  background: #2405f2;
+  vertical-align:middle;
+  margin-left: 14px;
+}
+.process .processCards .processcard h6 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.process .processCards .processcard p {
+  width: 95%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}

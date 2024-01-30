@@ -1,0 +1,19 @@
+{
+  "name": "figmaproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind/tailwind.css -o ./css/blogTailwind.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

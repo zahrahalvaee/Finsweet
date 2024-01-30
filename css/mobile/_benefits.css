@@ -1,0 +1,88 @@
+.benefits {
+  width: 100%;
+  padding: 10px;
+}
+.benefits h2 {
+  width: 100%;
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+  margin: 20px auto;
+}
+.benefits .benefitsCards {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap:10px;
+  margin-bottom: 20px;
+}
+.benefits .benefitsCards .benefitsCard {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.benefits .benefitsCards .benefitsCard svg {
+  width: 32.001px;
+  height: 32px;
+}
+.benefits .benefitsCards .benefitsCard h6 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 12px;
+}
+.benefits .benefitsCards .benefitsCard p {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+}
+.benefits .logoSection {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.benefits .logoSection .logoNumber {
+  width: 99%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.benefits .logoSection .logoNumber h3 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.benefits .logoSection .logoNumber p {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.benefits .logoSection .logoWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

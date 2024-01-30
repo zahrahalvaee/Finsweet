@@ -1,0 +1,63 @@
+.process {
+  width: 100%;
+  /* height: 268px; */
+  padding: 128px 10% 128px 10%;
+  /* margin: 128px 160px 128px 160px; */
+}
+.process h2 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 60.37px;
+}
+.process .processCards {
+  width: 100%;
+  /* height: 156px; */
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 2.5%;
+}
+.process .processCards .processcard {
+  width: 23.12%;
+  /* width: 296px; */
+  /* height: 156px; */
+}
+.process .processCards .processcard svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  vertical-align:middle;
+}
+.process .processCards .processcard span {
+  display: inline-block;
+  width: 224px;
+  height: 2px;
+  opacity: 0.4;
+  background: #2405f2;
+  vertical-align:middle;
+  margin-left: 14px;
+}
+.process .processCards .processcard h6 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.process .processCards .processcard p {
+  width: 95%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}

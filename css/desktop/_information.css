@@ -1,0 +1,31 @@
+.information {
+  width: 100%;
+  padding: 0px 16.75% 96px 16.75%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.information div span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+.information div h6 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 32px;
+}
+.information div:nth-of-type(4) {
+  width: 100%;
+  border-bottom: 1px solid #282938;
+  opacity: 0.2;
+}

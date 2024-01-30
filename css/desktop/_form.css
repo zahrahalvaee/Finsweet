@@ -1,0 +1,134 @@
+.form {
+  width: 100%;
+  padding: 128px 16.87%;
+}
+.form h2 {
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 16px;
+}
+.form p {
+  width: 46.9%;
+  /* width: 562px; */
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+.form .innerForm {
+  width: 100%;
+  padding: 55px 7.16% 65px 7.16%;
+  /* padding: 55px 76px 65px 76px; */
+  /* width: 1061px; */
+  /* height: 640px; */
+  border-radius: 12px;
+  background: var(--Grey);
+}
+.form .innerForm .topInnerForm {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.form .innerForm .topInnerForm .ltopInnerForm {
+  width: 41.14%;
+}
+.form .innerForm .topInnerForm .rtopInnerForm {
+  width: 41.14%;
+}
+.form .innerForm .bottomInnerForm {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.form .innerForm .bottomInnerForm .lbottomInnerForm {
+  width: 41.14%;
+}
+.form .innerForm .bottomInnerForm .rbottomInnerForm {
+  width: 41.14%;
+}
+.form .innerForm label {
+  /* display: block; */
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding-left: 0;
+  margin-bottom: 6px;
+}
+.form .innerForm input {
+  width: 100%;
+  display: inline-flex;
+  padding: 18px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin-bottom: 24px;
+}
+.form .innerForm input::placeholder {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.form .innerForm textarea {
+  width: 100%;
+  display: flex;
+  /* width: 908px; */
+  height: 138px;
+  padding: 18px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 0 auto;
+
+  margin-bottom: 32px;
+  resize: none;
+}
+.form .innerForm textarea::placeholder {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.form .innerForm button {
+  display: flex;
+  width: 254px;
+  height: 64px;
+  padding: 15px 51px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  background: var(--Dark-blue);
+
+  color: var(--Grey);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; 
+  /* background-color: transparent; */
+}

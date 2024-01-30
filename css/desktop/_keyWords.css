@@ -1,0 +1,40 @@
+.keyWords {
+  width: 100%;
+  padding: 0px 16.75% 112px 16.75%;
+}
+.keyWords div:nth-of-type(1) {
+  width: 100%;
+  border-top: 1px solid #282938;
+  opacity: 0.2;
+  margin-bottom: 26px;
+}
+.keyWords div:nth-of-type(3) {
+  width: 100%;
+  border-top: 1px solid #282938;
+  opacity: 0.2;
+}
+.keyWords .keyWord {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 26px;
+}
+.keyWords .keyWord h6 {
+  color: var(--Royal-Blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.keyWords .keyWord span {
+  color: var(--Dark-blue);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  opacity: 0.7;
+}

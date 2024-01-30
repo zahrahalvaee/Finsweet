@@ -1,0 +1,51 @@
+.aboutUs {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 10px;
+
+}
+.aboutUs .LaboutUs {
+  width: 100%;
+  text-align: center;
+}
+.aboutUs .LaboutUs span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+.aboutUs .LaboutUs h1 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+  margin-bottom: 31px;
+}
+.aboutUs .LaboutUs p {
+  width: 100%;
+  opacity: 0.7;
+  color: var(--Dark-blue);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+.aboutUs .RaboutUs {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.aboutUs .RaboutUs img {
+  width: 100%;
+  object-fit: cover;
+}

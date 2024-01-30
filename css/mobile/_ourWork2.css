@@ -1,0 +1,95 @@
+.ourWork2 {
+  width: 100%;
+  padding: 20px 10px;
+  /* text-align: center; */
+}
+.ourWork2 .spans {
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.ourWork2 .spans span {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-right: 2.5%;
+}
+.firtSpan {
+  color: var(--Royal-Blue) !important;
+}
+.ourWork2 .workCards {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.ourWork2 .workCards .workCard {
+  width: 100%;
+}
+.ourWork2 .workCards .workCard img {
+  width: 100%;
+  padding: 30px 39px;
+  background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+  background-color: aquamarine;
+  object-fit: cover;
+}
+.ourWork2 .workCards .workCard:nth-of-type(2) img {
+  background: linear-gradient(131deg, #FFD3AF 16.74%, #4F56FF 103.17%);
+}
+.ourWork2 .bgWorkCards2 .workCard img {
+background: linear-gradient(131deg, #EEBCA7 16.74%, #C8C8C8 103.17%);
+}
+.ourWork2 .bgWorkCards2 .workCard:nth-of-type(2) img {
+background: linear-gradient(131deg, #C2E7F2 16.74%, #98A4FF 103.17%);
+}
+.ourWork2 .bgWorkCards3 .workCard img {
+background: linear-gradient(131deg, #C5BCFF 16.74%, #9BF6D5 103.17%);
+}
+.ourWork2 .bgWorkCards3 .workCard:nth-of-type(2) img {
+background: linear-gradient(131deg, #D2D6FD 16.74%, #D6ACEA 103.17%);
+}
+.ourWork2 .workCards .workCard h3 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.ourWork2 .workCards .workCard p {
+  width: 100%;
+  color: var(--Dark-blue);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+.ourWork2 .workCards .workCard a {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  column-gap: 16px;
+  margin-bottom: 34px;
+}
+.ourWork2 .workCards .workCard a svg {
+  width: 24px;
+  fill: var(--Dark-blue);
+  stroke-width: 2px;
+  stroke: var(--Dark-blue);
+}

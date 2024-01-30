@@ -1,0 +1,58 @@
+.CTA_Section {
+  width: 100%;
+  /* width: 730px; */
+  /* height: 308px; */
+  padding: 0px 27.18% 128px 27.18%;
+}
+.CTA_Section .headlineBody {
+  width: 100%;
+  text-align: center;
+  /* width: 730px; */
+  /* height: 204px; */
+}
+.CTA_Section .headlineBody h2 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 20px;
+}
+.CTA_Section .headlineBody p {
+  width: 79.98%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin: 0 auto;
+  margin-bottom: 56px;
+}
+.CTA_Section .btnWork {
+  width:40%;
+  /* height: 64px; */
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+.CTA_Section .btnWork button {
+  display: flex;
+  width: 100%;
+  /* width: 230px; */
+  /* height: 64px; */
+  padding: 16px 67px 16px 66px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 41px;
+  background: #fcd980;
+  color: #1b1c2b;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}

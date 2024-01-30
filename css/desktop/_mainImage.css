@@ -1,0 +1,16 @@
+.mainImage {
+  width: 100%;
+  padding: 0px 16.75% 48px 16.75%;
+}
+.mainImage img {
+  width: 100%;
+  display: flex;
+  /* width: 1064px; */
+  /* height: 641px; */
+  padding: 60px 88px 65px 88px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  object-fit: cover;
+  background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+}

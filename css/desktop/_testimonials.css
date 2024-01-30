@@ -1,0 +1,197 @@
+.testimonials {
+  width: 100%;
+  /* height: 506px; */
+  /* opacity: 0.5; */
+  opacity: 0.5;
+  background: var(--Grey);
+  display: flex;
+  flex-flow: row wrap;
+  /* column-gap: 6.87%; */
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 130px;
+  padding: 128px 10% 106.75px 10%;
+}
+.testimonials .headTestimonials {
+  width: 25.54%;
+  /* width: 327px; */
+  /* height: 184px; */
+  /* height: 184px; */
+}
+.testimonials .headTestimonials h3 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+.testimonials .headTestimonials p {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* opacity: 0.7; */
+}
+.testimonials .slider {
+  width: 65.87%;
+  /* width: 843.199px; */
+  /* height: 250px; */
+  /* display: flex; */
+}
+.swiper-slide {
+  /* position: relative; */
+}
+.testimonials .slider h5 {
+  /* display: block; */
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  /* margin-bottom: 48px; */
+}
+.testimonials .slider .sliderImg {
+  width: 100%;
+  /* height: 87.339px; */
+  display: flex;
+  /* position: absolute; */
+  /* bottom: 0;
+  left: 0; */
+  /* flex-flow: row wrap; */
+}
+
+.testimonials .slider .sliderImg img {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  display: block;
+  border-radius: 50%;
+}
+.testimonials .slider .sliderImg div {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.testimonials .slider .sliderImg div span {
+  /* display: block !important; */
+  width: 183px;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.testimonials .slider .sliderImg div span span {
+  width: 183px;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.sliderItem {
+  display: flex;
+  flex-flow: column wrap;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ************************************************************************* */
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: lightgray;
+  border-radius: 50%;
+  /* position: absolute;
+  right: -50%;
+  bottom: -50%;  */
+}
+.swiper .swiper-notification {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: lightgray;
+  border-radius: 50%;
+  /* position: absolute;
+  right: 10%;
+  bottom: 0; */
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 19px;
+  font-weight: bold;
+  color: darkblue;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 19px;
+  font-weight: bold;
+  color: darkblue;
+  /* position: absolute;
+  right: 10%;
+  bottom: 0;  */
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  /* position: absolute; */
+}
+.swiper-pagination-bullet-active {
+  background-color: black !important;
+  /* position: absolute;
+  right: 10%;
+  bottom: 0;  */
+}
+.mySwiper {
+  /* position: relative; */
+}
+.swiper-button-next {
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+}
+.swiper-button-prev {
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+}

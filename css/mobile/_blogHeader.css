@@ -1,0 +1,39 @@
+.blogHeader {
+  width: 100%;
+  padding:20px 10px;
+}
+.blogHeader h6 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  opacity: 0.8;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.blogHeader h2 {
+  width: 100%;
+  /* width: 646px; */
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: center;
+}
+.blogHeader p {
+  width: 100%;
+  /* width: 817px; */
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: justify;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}

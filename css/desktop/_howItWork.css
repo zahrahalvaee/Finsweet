@@ -1,0 +1,111 @@
+.howitwork {
+  width: 100%;
+  background: var(--Grey);
+  padding: 128px 16.06% 128px 10.31%;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 11.09%;
+  /* background-color: yellowgreen; */
+}
+.howitwork .headings {
+  width: 31.64%;
+  /* height: 184px; */
+  /* background-color: saddlebrown; */
+}
+.howitwork .headings div:nth-of-type(1) {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.howitwork .headings div:nth-of-type(1) h2 {
+  width:100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+howitwork .headings div:nth-of-type(2) {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.howitwork .headings div:nth-of-type(2) p {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.howitwork .headings div:nth-of-type(3) {
+  width: 100%;
+}
+.howitwork .headings div:nth-of-type(3) a {
+  color: var(--Royal-Blue);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.howitwork .headings div:nth-of-type(3) a svg {
+  margin-left: 16px;
+}
+
+.howitwork .cards {
+  width: 51.25%;
+  /* height: 405px; */
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: right;
+  row-gap: 48px;
+  column-gap:24px ;
+  /* display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(2, 178px);
+  align-content: center;
+  justify-content: right; */
+}
+.howitwork .cards .card {
+  width: 48%;
+  background: var(--Grey);
+  border: none;
+  /* height: 178px;  */
+  /* background-color: rgb(146, 129, 161); */
+}
+.howitwork .cards .card div:nth-of-type(1) {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  background: var(--Royal-Blue);
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+.howitwork .cards .card div:nth-of-type(2) h5 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+.howitwork .cards .card div:nth-of-type(3) p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  opacity: 0.7;
+}

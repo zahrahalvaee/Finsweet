@@ -1,0 +1,275 @@
+.pricing {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+}
+.pricing .pricinHeading {
+  width: 100%;
+  margin: 0px auto 64px auto;
+}
+.pricing .pricinHeading h2 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.pricing .pricinHeading p {
+  width: 100%;
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: justify;
+}
+.pricing .pricingCards {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.pricing .pricingCards .pricingCard {
+  width: 100%;
+  border-radius: 12px;
+  text-align: center;
+  background: var(--Grey);
+  overflow: hidden;
+  position: relative;
+}
+
+.pricing .pricingCards .pricingCard div:nth-of-type(1) {
+  display: flex;
+  padding-top: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pricing .pricingCards .pricingCard div:nth-of-type(1) h3 {
+  width: 33.8%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.pricing .pricingCards .pricingCard div:nth-of-type(1) p {
+  color: var(--Royal-Blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 34px;
+}
+.pricing .pricingCards .pricingCard h6 {
+  width: 100%;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+.pricing .pricingCards .pricingCard p {
+  width: 100%;  
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 78px;
+}
+
+.pricing .pricingCards .pricingCard .pricingLists {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  row-gap: 20px;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.pricing .pricingCards .pricingCard .pricingLists .pricingList {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: ce;
+  justify-content: center;
+  column-gap: 2px;
+  position: relative;
+}
+.size svg {
+  position: absolute;
+  left: 0px;
+  top: 0%;
+}
+.size p {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+.pricing .pricingCards .pricingCard .pricingLists .pricingList p {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.pricing .pricingCards .pricingCard .pricingLists .pricingList svg {
+  width: 26px;
+  fill: #97daad;
+  stroke-width: 3px;
+  stroke: #fff;
+}
+
+.pricing .pricingCards .pricingCard .pricingLists .pricingList:hover svg {
+  transform: rotate(90deg);
+}
+
+.pricing .pricingCards .pricingCard .button1 {
+  padding-bottom: 62px;
+}
+.pricing .pricingCards .pricingCard .button1 button {
+  display: flex;
+  width: 62.56%;
+  padding: 15px 51px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  background: var(--Dark-blue);
+  color: var(--Grey);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 0 auto;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard {
+  width: 100%;
+  border-radius: 12px;
+  background: #1c1e53;
+  position: absolute;
+  left: -100%;
+  top: 0;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard div:nth-of-type(1) {
+  display: flex;
+  padding-top: 64px;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard div:nth-of-type(1) h3 {
+  width: 100%;
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+  background-color: rgb(238, 238, 197);
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard div:nth-of-type(1) p {
+  color: var(--Yellow);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: justify;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard h6 {
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard p {
+  width: 100%;
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard .pricingLists {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 20px;
+  align-content: center;
+  justify-content: flex-start;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard .pricingLists .pricingList {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+  justify-content: center;
+  column-gap: 2px;
+  position: relative;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard .pricingLists .pricingList p {
+ color: var(--White);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard .pricingLists .pricingList svg {
+  width: 26px;
+fill: #97DAAD;
+stroke-width: 3px;
+stroke: #FFF;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard .button1 {
+  padding-bottom: 62px;
+}
+.pricing .pricingCards .pricingCard .hoverPricingCard .button1 button {
+ display: flex;
+width: 62.56%;
+padding: 15px 51px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 41px;
+background: var(--Yellow);
+}
+.pricing .pricingCards .pricingCard:hover .hoverPricingCard {
+left: 0;
+}
+/* .hoverPricingCard .size svg {
+  position: absolute;
+  left: 0px;
+  top: 0%;
+}
+.hoverPricingCard .size p {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+} */

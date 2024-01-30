@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+width: 100%;
+}
+@font-face {
+    font-family:Poppins ;
+    src: url(../fonts/Poppins-Regular.ttf);
+    src: url(../fonts/Poppins-Regular.eot);
+    src: url(../fonts/Poppins-Regular.woff);
+    src: url(../fonts/Poppins-Regular.woff2);
+}
+@font-face {
+    font-family: Manrope;
+    src: url(../fonts/Manrope-Regular.eot);
+    src: url(../fonts/Manrope-Regular.ttf);
+    src: url(../fonts/Manrope-Regular.woff);
+    src: url(../fonts/Manrope-Regular.woff2);
+}
+
+:root{
+--White:#fff;
+--Tint-blue: #1C1E53;
+--Grey:#F4F6FC;
+--Dark-blue: #282938;
+--Royal-Blue: #2405f2;
+--Yellow: #fcd980;
+--Accent: #EEF4FA;
+--b: #1d2130;
+}

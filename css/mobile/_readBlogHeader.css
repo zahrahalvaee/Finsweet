@@ -1,0 +1,33 @@
+.readBlogHeader {
+  width: 100%;
+  padding: 20px 10px;
+  text-align: center;
+}
+.readBlogHeader h2 {
+  width: 100%;
+  /* width: 949px; */
+  margin: 0 auto;
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.readBlogHeader span {
+    display: inline-block;
+  color: var(--Dark-blue);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+}
+.readBlogHeader img{
+    width: 100%;
+    object-fit: cover;
+}
